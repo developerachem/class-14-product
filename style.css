@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+
+}
+a{
+    color: tomato;
+}
+span{
+    color: tomato;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-right: 5px;
+}
+.salr-price{
+    text-decoration: line-through;
+    color: rgb(148, 138, 138);
+    display: inline-block;
+}
+.col-lg-8 {
+	border-right: 1px solid #b9b0b0;
+	border-left: 1px solid #b9b0b0;
+}
+.poretive{
+    position: relative;
+}
+.searchResult {
+	position: absolute;
+	top: 10%;
+	left: 25.7%;
+	box-shadow: 0px 27px 50px #00000063;
+	width: 554px;
+	z-index: 11;
+	background-color: white;
+	padding: 20px 30px;
+	border-radius: 6px;
+	transition: .5s;
+	opacity: 0;
+	pointer-events: none;
+}
+.searchResult.show {
+    top: 5% !important;
+    opacity: 1 !important;
+	pointer-events: all !important;
+}
+.search-product span {
+	text-align: left;
+	margin-bottom: 5px;
+}
